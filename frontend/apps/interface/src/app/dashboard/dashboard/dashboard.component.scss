@@ -1,0 +1,14 @@
+.mat-sidenav {
+  min-width: 300px;
+  width: fit-content;
+  max-width: 400px;
+  padding: 0 0 0 30px;
+}
+
+.mat-sidenav-content {
+  height: 92vh;
+
+  .mat-tab-link {
+    padding-bottom: 0;
+  }
+}

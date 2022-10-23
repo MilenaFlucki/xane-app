@@ -1,0 +1,15 @@
+<nav mat-tab-nav-bar [tabPanel]="tabPanel">
+  <ng-content select="[slot=medizinische-pruefung]"></ng-content>
+  <button mat-flat-button (click)="sidenav.toggle();">Button</button>
+</nav>
+
+<mat-tab-nav-panel #tabPanel>
+  <mat-sidenav-container [hasBackdrop]="false">
+    <mat-sidenav #sidenav [autoFocus]="false" mode="push" position="start" [(opened)]="sidenavOpen" role="region">
+      <frontend-user-information></frontend-user-information>
+    </mat-sidenav>
+    <mat-sidenav-content class="menu-links-container" role="main">
+      <div>test</div>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</mat-tab-nav-panel>

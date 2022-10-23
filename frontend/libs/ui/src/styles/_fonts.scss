@@ -1,0 +1,89 @@
+/* rubik-regular - latin */
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: local('')
+}
+
+/* rubik-700 - latin */
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    src: local('')
+}
+
+/* maven-pro-regular - latin */
+@font-face {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('')
+}
+
+/* maven-pro-700 - latin */
+@font-face {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 700;
+    src: local('')
+}
+
+/**** DRG-Schriftarten ****/
+
+h1 {
+  font-family: "Roboto Medium", Roboto, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 40px;
+  letter-spacing: -0.16px;
+}
+
+h2 {
+  font-family: "Roboto Light", Roboto, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 32px;
+  letter-spacing: -0.1px;
+}
+
+h3 {
+  font-family: "Roboto Medium", Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: -0.08px;
+}
+
+h4 {
+  font-family: "Roboto Medium", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: -0.03px;
+}
+
+h5 {
+  font-family: "Roboto Medium", sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 20px;
+  letter-spacing: -0.03px;
+}
+
+h6 {
+  font-family: "Roboto Medium", sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 16px;
+  letter-spacing: -0.05px;
+}
+
+p {
+  font-family: "Roboto Medium", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: -0.03px;
+}
